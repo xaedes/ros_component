@@ -1,0 +1,15 @@
+<package format="2">
+    <name>ros_component</name>
+    <version>0.0.1</version>
+    <description>
+        Unifies ros nodes and nodelets into "ros components" which then can be instantiated either directly as node or as nodelet.
+    </description>
+    <maintainer email="xaedes@gmail.com">xaedes</maintainer>
+    <author email="xaedes@gmail.com">xaedes</author>
+    <license>MIT</license>
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>nodelet</depend>
+    <depend>roscpp</depend>
+
+</package>

@@ -1,0 +1,21 @@
+<package format="2">
+    <name>component_example</name>
+    <version>0.0.1</version>
+    <description>component_example</description>
+    <maintainer email="xaedes@gmail.com">xaedes</maintainer>
+    <author email="xaedes@gmail.com">xaedes</author>
+    <license>MIT</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    
+    <!-- When using Python: -->
+    <!-- <depend>rospy</depend> -->
+    <!-- When using C++: -->
+    <depend>roscpp</depend>
+    <depend>std_msgs</depend>
+    <depend>ros_component</depend>
+    
+    <export>
+        <nodelet plugin="${prefix}/nodelet_plugins.xml"/>
+    </export>
+</package>

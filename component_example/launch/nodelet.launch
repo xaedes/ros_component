@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="example_nodelet" args="standalone component_example/ExampleNodelet" output="screen">
+    </node>
+</launch>

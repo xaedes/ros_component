@@ -1,0 +1,7 @@
+<library path="lib/libcomponent_example_nodelet">
+    <class name="component_example/ExampleNodelet" type="ExampleNodelet" base_class_type="nodelet::Nodelet">
+        <description> 
+            just an example to copy from
+        </description>
+    </class>
+</library>
